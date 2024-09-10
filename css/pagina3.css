@@ -1,0 +1,45 @@
+.contenedor{
+    grid-template-columns: 1878px;
+    grid-template-rows: 350px 900px 50px;
+    display: grid;
+    grid-template-areas: 
+    'enc'
+    'con'
+    'pie'
+    ;
+}
+.enc{
+    background-color: rgb(103, 12, 189);
+    grid-area: enc;
+}
+.con{
+    background-color: aquamarine;
+    grid-area: con;
+    color: black;
+}
+.pie{
+    background-color: black;
+    grid-area: pie;
+    color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+.img{
+    width: 1878px;
+    height: 350px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces{
+    text-align: center;
+}
+.im{
+    width: 400px;
+    height: 300px;
+}
+.tabla{
+    align-content: center;
+    text-align: center;
+}

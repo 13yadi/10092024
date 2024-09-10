@@ -1,0 +1,46 @@
+.contenedor{
+    grid-template-columns: 939px 939px ;
+    grid-template-rows: 350px 60px 900px 60px;
+    display: grid;
+    grid-template-areas:
+    'enc enc'
+    'enl enl'
+    'sec mai'
+    'pie pie'
+    ;
+}
+.img{
+    width: 1878px;
+    height: 350px;
+}
+header{
+    background-color: blueviolet;
+    grid-area: enc;
+}
+nav{
+    background-color: deepskyblue;
+    text-align: center;
+    align-content: center;
+    grid-area: enl;
+}
+section{
+    background-color: darkcyan;
+    grid-area: sec;
+    align-content: center;
+    text-align: center;
+}
+main{
+    background-color: cornflowerblue;
+    grid-area: mai;
+}
+footer{
+    background-color: rgba(31, 2, 2, 0.836);
+    grid-area: pie;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 400px;
+    height: 900px
+}
